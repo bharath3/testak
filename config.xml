@@ -19,24 +19,27 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
-  <gap:plugin name="org.apache.cordova.battery-status" source="npm" /> 
-<gap:plugin name="org.apache.cordova.camera" source="npm" /> 
-<gap:plugin name="org.apache.cordova.media-capture" source="npm" /> 
-<gap:plugin name="org.apache.cordova.console" source="npm" /> 
-<gap:plugin name="org.apache.cordova.contacts" source="npm"/> 
-<gap:plugin name="org.apache.cordova.device" source="npm"/> 
-<gap:plugin name="org.apache.cordova.device-motion" source="npm"/> 
-<gap:plugin name="org.apache.cordova.device-orientation" source="npm"/> 
-<gap:plugin name="org.apache.cordova.dialogs" source="npm"/> 
-<gap:plugin name="org.apache.cordova.file" source="npm" /> 
-<gap:plugin name="org.apache.cordova.file-transfer" source="npm"/> 
-<gap:plugin name="org.apache.cordova.geolocation" source="npm"/> 
-<gap:plugin name="org.apache.cordova.globalization" source="npm"/> 
-<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/> 
-<gap:plugin name="org.apache.cordova.media" source="npm" /> 
-<gap:plugin name="org.apache.cordova.network-information" source="npm" /> 
-<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/> 
-<gap:plugin name="org.apache.cordova.vibration" source="npm" /> 
+  <plugin name="InAppBrowser" spec="n/a" />
+<plugin name="cordova-plugin-whitelist" spec="n/a" />
+<plugin name="org.apache.cordova.battery-status" spec="n/a" />
+<plugin name="org.apache.cordova.camera" spec="n/a" />
+<plugin name="org.apache.cordova.console" spec="n/a" />
+<plugin name="org.apache.cordova.contacts" spec="n/a" />
+<plugin name="org.apache.cordova.device" spec="n/a" />
+<plugin name="org.apache.cordova.device-motion" spec="n/a" />
+<plugin name="org.apache.cordova.device-orientation" spec="n/a" />
+<plugin name="org.apache.cordova.dialogs" spec="n/a" />
+<plugin name="org.apache.cordova.file" spec="n/a" />
+<plugin name="org.apache.cordova.file-transfer" spec="n/a" />
+<plugin name="org.apache.cordova.geolocation" spec="n/a" />
+<plugin name="org.apache.cordova.globalization" spec="n/a" />
+<plugin name="org.apache.cordova.inappbrowser" spec="n/a" />
+<plugin name="org.apache.cordova.media" spec="n/a" />
+<plugin name="org.apache.cordova.media-capture" spec="n/a" />
+<plugin name="org.apache.cordova.network-information" spec="n/a" />
+<plugin name="org.apache.cordova.splashscreen" spec="n/a" />
+<plugin name="org.apache.cordova.vibration" spec="n/a" />
+
 
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
